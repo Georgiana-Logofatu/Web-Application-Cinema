@@ -1,0 +1,15 @@
+body{
+    background-image: url(../images/grey.jpeg);  
+}
+.movies img{
+    padding: 20px;
+    width: 50%;
+	height: 0px auto;
+	opacity: 0.80;
+    float:inline-start;
+}
+.movies p,pre{
+    color:antiquewhite;
+    float:right;
+    width:50%;
+}

@@ -1,0 +1,21 @@
+body{
+    background-image: url(../images/grey.jpeg);
+}
+.column {
+    float: left;
+    width: 25%;
+    color:antiquewhite;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img{
+    padding: 20px;
+    width: 100%;
+	height: 0px auto;
+	opacity: 0.80;
+    float:inline-start;
+}
